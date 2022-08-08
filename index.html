@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"> <!--libreria iconos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/estilo.css"> <!--ubicacion hoja de estilos-->
+    <!--favicon-->
+    <link rel="icon" href="/favicon/favicon.ico">
+   
+
+   
+    <title>La Creme de la Creme</title>
+</head>
+<body>
+        <header><!--cabecera-->
+            <div class="container">
+                <nav class="nav">
+                    <div class="menu-toggle">
+                        <i class="fas fa-bars"></i>
+                        <i class="fas x-no"></i>
+
+                    </div>
+                    <a href="/index.html" class="logo">Logo</a>
+                    <ul class="nav-list"> 
+                        <li>
+                            <li class="nav-item">
+                                <a href="/index.html" class="nav-link active">Inicio</a>
+                            </li>
+                        </li>
+                        
+                            <li>
+                                <li class="nav-item">
+                                    <a href="/paginas/galeria.html" class="nav-link">Galeria</a>
+                                </li>
+                            </li>
+
+                            <li>
+                                <li class="nav-item">
+                                    <a href="/paginas/nosotros.html" class="nav-link">Sobre Nosotros</a>
+                                </li>
+                            </li>
+
+                            <li>
+                                <li class="nav-item">
+                                    <a href="/paginas/tienda.html" class="nav-link active">Tienda</a>
+                                </li>
+                            </li>
+
+                            <li>
+                                <li class="nav-item">
+                                    <a href="/paginas/contacto.html" class="nav-link">Contacto</a>
+                                </li>
+                            </li>
+                        
+                    </ul>
+                </nav>
+
+            </div>
+        </header>
+        <!--fin cabecera-->
+
+          <!--Menu Responsivo-->
+          <script>
+            const selectElement = function(element) {
+                return document.querySelector(element);
+
+            }
+
+            let menuToggle = selectElement('.menu-toggle');
+            let body = selectElement('body');
+
+            menuToggle.addEventListener('click', function(){
+                body.classList.toggle('open');
+            })
+
+        </script>
+
+         <!--seccion comienzo de pagina-->
+        <section class="hero" id="hero"> 
+            <div class="container">
+                <h2 class="h2-sub">
+                    <span class="fil">B</span>ienvenido
+                </h2>
+                <h1 class="head">La creme de la Creme</h1>
+                <div class="he-des">
+                    <h5>Lorem ipsum dolor</h5>
+                    <a href="#" class="btn cta-btn">Explora</a> <!--explora diferentes estilos de tortas en  google-->
+                </div>
+            </div>
+
+        </section class="dis-sto">
+        <!--seccion de compra -->
+            <div class="container">
+                <div class="res-info">
+                    <div>
+                        <img src="images/pastel.jpg" alt="tienda tortas">
+                    </div>
+                 <div class="res-des-rig">
+                    <div class="global">
+                        <h2 class="h2-sub">
+                            <span class="fil">D</span>escubre 
+                        </h2>
+
+                        <h1 class="head head-dark">Ordene su pedido</h1>
+                        <div class="circle">
+                            <i class="fas fa-circle"></i>
+                        </div>
+                    </div>
+                    <p>
+                       Vea nuestros productos y ordene el suyo.
+                    </p>
+                    <a href="/paginas/tienda.html" class="btn cta-btn">Tienda</a>
+                 </div>
+                </div>
+            </div>
+      
+
+        </section>
+        <!--fin seccion de compras-->
+        
+        <!--foto de imagen marketing -->
+        <section class="que-rico bt">
+            <div class="container">
+                <div class="global">
+                    <h2 class="h2-sub">
+                        <span class="fil">F</span>resco y delicioso
+                       
+                    </h2>
+                  
+                </div>
+
+            </div>
+
+        </section>
+        <!--fin imagen marketing-->
+        <!--galeria de fotos-->
+        <section class="disco">
+            <div class="container">
+                <div class="res-info">
+                    <div class="res-des">
+                    <div class="global">
+                        <h2 class="h2-sub">
+                            <span class="fil">D</span>escubre 
+                        </h2>
+
+                        <h1 class="head head-dark">Galeria</h1>
+                        <div class="circle">
+                            <i class="fas fa-circle"></i>
+                        </div>
+                    </div>
+                    <p>
+                        “Las tortas son como los libros: hay libros nuevos que quieres leer y hay otros viejos que quieres volver a leer” — Ellen Rose
+                    </p>
+                    <a href="/paginas/galeria.html" class="btn cta-btn">Nuestra Galeria</a>
+                </div>
+
+                    <div class="fotos-tam">
+                        <div class="image-group pad-rig">
+                            <img id="foto" src="images/menu1.jpg" alt="tortas">
+                            <img id="foto" src="images/menu2.jpg" alt="cheesecake">
+                            <img id="foto" src="images/menu3.jpg" alt="alfajor de maicena">
+                            <img id="foto" src="images/menu4.jpg" alt="brownie">
+                        
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--fin galeria-->
+       
+        <!--espacio de trabajo (cocina )-->
+        <section>
+            <div class="container cocina-foto">
+                <div class="res-info">
+                    <div class="image-group">
+                        <img src="images/cocina1.png" alt="espacio de trabajo">
+                        <img src="images/cocina2.jpg" alt="espacio de trabajo">
+                    </div>
+                    <div class="res-des pad-rig">
+                        <div class="global">
+                            <h2 class="h2-sub">
+                                <span class="fil">T</span>ranquilidad
+                            </h2>
+    
+                            <h1 class="head head-dark">Nuestro Espacio</h1>
+                            <div class="circle">
+                                <i class="fas fa-circle"></i>
+                            </div>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, fugiat! Odio iure corporis laborum tenetur expedita laboriosam sunt incidunt id quo voluptas odit aliquid veritatis, maiores fugit dolorum, molestias asperiores.
+                        </p>
+                        <a href="/paginas/nosotros.html" class="btn cta-btn">sobre Nosotros</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--fin sobre nuestro espacio de trabajo-->
+        <!--pie de pagina-->
+        <footer>
+            <div class="footer-content">
+                <h3>Siguenos en nuestras Redes</h3>
+                <p> Liliana zubillaga:"Estamos felices de que formes parte de La creme de la Creme. Gracias por permanecer y crecer juntos".</p>
+                <ul class="socials">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>derechos de autor, 2022 La creme de la Creme. Diseñado por <span>Lisandro Marchilli</span></p>
+            </div>
+
+        </footer>
+
+
+</body>
+</html>
