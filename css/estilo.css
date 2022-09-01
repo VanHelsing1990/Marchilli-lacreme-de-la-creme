@@ -40,7 +40,6 @@ a {
 p {
     font-size: 1.6rem; /*tamaño texto*/
 }
-
 .container {
     width: 100%;
     max-width: 122.5rem;
@@ -49,14 +48,7 @@ p {
 }
 
 
-header {
-    width: 100%;
-    position: absolute; /*no se mueve */
-    top: 0;
-    left: 0;
-    z-index: 1; /*se colocar delante de cualquier elemento*/
-    background-image: linear-gradient(to bottom, rgba(0,0,0,.5), transparent);
-}
+
 
 .nav {
     height: 7.2rem;
@@ -79,6 +71,21 @@ header {
 .x-no {
     display: none; /*no aparece la x*/
 }
+
+header {
+    width: 100%;
+    position: absolute; /*no se mueve */
+    top: 0;
+    left: 0;
+    z-index: 1; /*se colocar delante de cualquier elemento*/
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent);
+  }
+  header p {
+    font-size: 1.6rem; /*tamaño texto*/
+  }
+  header a {
+    text-decoration: none; /*decoracion (linea sobre el texto no incluir*/
+  }
 
 .nav-list {
     list-style: none; /*sin los puntitos*/
@@ -149,8 +156,9 @@ header {
 }
 
 .nav-link:hover {
-    color: #3bcc75; /*al pasar con el cursor*/
+    color: #green; /*al pasar con el cursor*/
 }
+
 
 /*Hero*/
 
@@ -206,25 +214,6 @@ header {
     margin-right: -3px;
 }
 
-.btn {
-    display: inline-block;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-right: -2px;
-}
-
-.cta-btn {
-    font-size: 1.1rem;
-    background-color: #ffc845;
-    padding: 1.5rem 3rem;
-    color: #fff;
-    border-radius: .4rem;
-}
-.cta-btn:hover,
-.cta-btn:focus {
-    color: #fff;
-    background-color: #3bcc75;
-}
 
 
 .global {
@@ -303,38 +292,7 @@ header {
 }
 
 
-/*footer*/
-footer {
-    padding: 7.9rem 0;
-    background-color: #121212;
-    color: #fff;
-    text-align: center;
-    position: relative;
-}
 
-.footer-content {
-    overflow: hidden; /*hace que el texto que sobresalga por encima del div no sea visible.*/
-}
-
-.footer-content h4 {
-    font-size: 1.9rem;
-    text-transform: uppercase;
-    font-weight: 100;
-    letter-spacing: 3px;
-    margin-bottom: 3rem;
-}
-
-.footer-content .circle{
-    margin: 2.4rem 0;
-}
-
-.footer-content-about {
-    margin-bottom: 5.4rem;
-}
-
-.footer-content-about p {
-    line-height: 2;
-}
 
 .social-icons {
     list-style: none;
