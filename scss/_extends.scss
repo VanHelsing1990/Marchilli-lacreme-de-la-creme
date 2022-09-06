@@ -1,0 +1,31 @@
+@import "./variable";
+
+
+/*utilizado en _button.scss*/
+%bot1 {
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: -2px;
+}
+
+%bot2 {
+    font-size: 1.1rem;
+    background-color: $anarillo;
+    padding: 1.5rem 3rem;
+    color: $blanco;
+    border-radius: .4rem;
+}
+
+
+%nav {
+    
+        display: block;
+        color: #fff;
+        text-transform: uppercase; /*mayuscula*/
+        font-size: 1.6rem;
+        letter-spacing: 2px;
+        margin-right: -2px;
+    
+    
+}

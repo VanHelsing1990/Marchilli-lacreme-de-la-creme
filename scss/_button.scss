@@ -1,0 +1,26 @@
+.btn{
+
+    @extend %bot1;
+}
+
+.cta-btn{
+    @extend %bot2;
+    
+}
+
+.cta-btn:hover,
+.cta-btn:focus {
+    color: $blanco;
+    background-color: $verde;
+}
+/*----------------------------------------------------*/
+
+.botoncont{
+   
+    @include botcont ($negrosuave:#31384A, $blancoo:white);
+}
+
+.botoncan{
+
+    @include botcan($colornegro: #625b5b, $colorazul: #1e2944);
+}

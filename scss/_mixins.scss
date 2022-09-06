@@ -1,0 +1,16 @@
+
+/*utilizado en contacto.html*/
+@mixin botcont($negrosuave, $blancoo) {
+    
+        background: $negrosuave;
+        color: $blancoo;
+        padding: 20px;
+    
+    
+
+}
+/*incluido en _button.scss*/
+@mixin botcan ($colornegro, $colorazul) {
+    background: $colornegro;
+        color: $colorazul;
+}

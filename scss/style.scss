@@ -1,27 +1,11 @@
+@import "./maps";
+@import "./mixins";
 @import "./header";
 @import "./footer";
-@import "./variable.scss";
+@import "./variable";
+@import "./extends";
+@import "./button";
+@import "./navtod";
 
+/*--------------------------------------------*/
 
-
-/*boton*/
-.btn {
-    display: inline-block;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-right: -2px;
-}
-
-.cta-btn {
-    font-size: 1.1rem;
-    background-color: $anarillo;
-    padding: 1.5rem 3rem;
-    color: $blanco;
-    border-radius: .4rem;
-}
-.cta-btn:hover,
-.cta-btn:focus {
-    color: $blanco;
-    background-color: $verde;
-}
-/*-----------------------------------------------------*/
