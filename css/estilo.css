@@ -179,6 +179,7 @@ p {
 .que-rico {
     background: url("../images/pasteles.jpg") center no-repeat;
     background-size: cover;  /*preserva su proporción propia*/
+    margin-top: 20px;
 }
 
 .bt {
